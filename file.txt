@@ -1,0 +1,78 @@
+1. sudo apt install git
+2. Set your identity:
+	git config --global user.name "VishalSyntax"
+3. git config --global user.email "thatvishal007@gmail.com"
+4. to check
+	git config --list
+5. Create your first repo
+	mkdir myproject
+	cd myproject
+	git init		Now Git is tracking this folder.
+6. Basic workflow (MOST IMPORTANT)
+
+	This is the core cycle you’ll use every day:
+
+	➤ Step 1: Create/edit files
+		echo "hello" > file.txt
+	➤ Step 2: Check status
+		git status
+	➤ Step 3: Add files (stage)	Or everything:
+		git add file.txt	git add .
+	➤ Step 4: Commit (save version)
+		git commit -m "first commit"
+		Now your change is saved in history
+7. See history
+	git log
+	Short version: git log --oneline
+8. Modify and repeat
+	echo "new line" >> file.txt
+	git add .
+	git commit -m "updated file"
+9. Connect to GitHub (important)
+	Create a repo on GitHub
+	Then:
+	git remote add origin https://github.com/VishalSyntax/linux.git
+	git branch -M main
+	git push -u origin main
+10. Clone existing repo
+	git clone https://github.com/user/repo.git
+11. Pull latest changes
+	git pull
+12. Push your changes
+	git push
+13. Branching (very important later)	Or modern way:
+	git branch new-feature
+	git checkout new-feature	git switch -c new-feature
+
+🔹 Simple mental model
+Working Directory → Staging → Repository
+      (edit)        (add)       (commit)
+
+
+🔹 Most used commands (remember these)
+git init
+git status
+git add .
+git commit -m "message"
+git log --oneline
+git push
+git pull
+git clone
+
+
+🔹 Best way to learn (do this)
+
+Practice this mini project:
+
+mkdir demo
+cd demo
+git init
+echo "v1" > app.txt
+git add .
+git commit -m "v1"
+
+echo "v2" >> app.txt
+git add .
+git commit -m "v2"
+
+git log --oneline
