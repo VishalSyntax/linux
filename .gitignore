@@ -1,0 +1,16 @@
+# Script command typescript files (raw session recordings before conversion)
+typescript
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*~
+
+# macOS metadata
+.DS_Store
+
+# Compiled shell scripts / binaries
+*.o
+*.out
+a.out
