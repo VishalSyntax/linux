@@ -11,12 +11,23 @@
 - Audit logging: `/var/log/auth.log`, `/var/log/secure`
 - Common root-level tasks: package management, service management (`systemctl`)
 
-## Logging Sessions
+## Folder Contents
+
+| Folder | Purpose |
+|--------|---------|
+| `logs/` | Terminal session recordings (`script` command) |
+| `screenshots/` | Screenshots taken during the session |
+| `notes/notes.md` | Written notes organised by sub-topic |
+| `questions/questions.md` | Most important questions to test understanding |
+
+## Logging a Session
 
 ```bash
 script -a logs/YYYY-MM-DD.log
 exit
 ```
+
+Save screenshots to `screenshots/` and fill in `notes/notes.md` as you go.
 
 ## Resources
 

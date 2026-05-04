@@ -5,10 +5,22 @@ Each session's terminal output is captured with the `script` command and committ
 
 ---
 
+## Folder Layout (per topic)
+
+```
+<topic>/
+├── logs/          # Terminal session recordings (script command output)
+├── screenshots/   # Screenshots taken during the session
+├── notes/
+│   └── notes.md   # Written notes organised by sub-topic
+└── questions/
+    └── questions.md  # Most important questions to test understanding
+```
+
 ## How to Log a Session
 
 ```bash
-# Start recording (creates a timestamped log file in the relevant topic folder)
+# Start recording terminal session
 script -a <topic>/logs/YYYY-MM-DD.log
 
 # ... run your commands ...
@@ -16,6 +28,8 @@ script -a <topic>/logs/YYYY-MM-DD.log
 # Stop recording
 exit
 ```
+
+Add screenshots to `<topic>/screenshots/` and fill in `notes/notes.md` as you go.
 
 Push after every session:
 ```bash

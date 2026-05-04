@@ -9,15 +9,25 @@
 - The Linux file-system hierarchy at a glance
 - Basic terminal navigation: opening a terminal, the prompt, `man` pages
 
-## Logging Sessions
+## Folder Contents
 
-Record your terminal sessions with:
+| Folder | Purpose |
+|--------|---------|
+| `logs/` | Terminal session recordings (`script` command) |
+| `screenshots/` | Screenshots taken during the session |
+| `notes/notes.md` | Written notes organised by sub-topic |
+| `questions/questions.md` | Most important questions to test understanding |
+
+## Logging a Session
 
 ```bash
+# Record terminal session
 script -a logs/YYYY-MM-DD.log
 # … explore, run commands …
 exit
 ```
+
+Save screenshots to `screenshots/` and fill in `notes/notes.md` as you go.
 
 ## Resources
 
