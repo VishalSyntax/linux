@@ -1,0 +1,146 @@
+Script started on 2026-06-28 23:14:22+05:00 [TERM="xterm-256color" TTY="/proc/6280/fd/0" COLUMNS="70" LINES="37"]
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]ps
+  PID TTY          TIME CMD
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]s ps -e
+  PID TTY          TIME CMD
+ 6182 ?        00:00:50 com.termux
+ 6245 /proc/6280/fd/0 00:00:01 bash
+ 6280 pts/0    00:00:15 proot
+ 6284 /proc/6280/fd/0 00:00:05 bash
+29807 /proc/6280/fd/0 00:00:00 script
+29811 pts/1    00:00:00 sh
+30916 pts/1    00:00:00 ps
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]#view memory and cpu
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]ps -aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aid_u0_+  6182  0.0  1.1 18680340 139180 ?     S<l   2023   0:52 com.t
+aid_u0_+  6245  0.0  0.0 10776356 2632 /proc/6280/fd/0 S<s 2023   0:01 /data/data/com.termux/files/usr/bin/bash -l
+aid_u0_+  6280  0.0  0.0 10773572 3296 pts/0   S<    2023   0:15 /data
+aid_u0_+  6284  0.0  0.0   6572  2896 /proc/6280/fd/0 S< 2023   0:05 /
+aid_u0_+ 29807  0.0  0.0   4168   876 /proc/6280/fd/0 S<+ 2023   0:00 
+aid_u0_+ 29811  0.0  0.0   4180   952 pts/1    S<s   2023   0:00 sh -i
+aid_u0_+ 31076 25.0  0.0   7148  3504 pts/1    R<+   2023   0:00 ps -a
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]pstree
+?───?───com.termux─┬─/data/data/com.termux/files/usr/bin/bash───/data+
+                   └─54*[{com.termux}]
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]top
+[?1h=[?25l[H[2J(B[mtop - 23:17:51 up 2 min,  0 users,  load average: 0.12, 0.07, 0.02(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m   7 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m   6 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m   0.0 (B[m[39;49mus,(B[m[39;49m[1m   0.0 (B[m[39;49msy,(B[m[39;49m[1m   0.0 (B[m[39;49mni,(B[m[39;49m[1m 100.0 (B[m[39;49mid,(B[m[39;49m[1m   0.0 (B[m[39;49mwa,(B[m[39;49m[1m   0.0 (B[m[39;49mhi,(B[m[39;49m[1m  (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m  11386.0 (B[m[39;49mtotal,(B[m[39;49m[1m    110.5 (B[m[39;49mfree,(B[m[39;49m[1m   6966.1 (B[m[39;49mused,(B[m[39;49m[1m   3918.4 (B[m[39;49mbuff/(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   8192.0 (B[m[39;49mtotal,(B[m[39;49m[1m   4321.6 (B[m[39;49mfree,(B[m[39;49m[1m   3870.4 (B[m[39;49mused.(B[m[39;49m[1m   4419.9 (B[m[39;49mavail(B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ (B[m[39;49m[K
+(B[m 6280 root      10 -10   10.3g   3544   2932 S 100.0   0.0   0:15.80 (B[m[39;49m[K
+(B[m 6182 root      -2 -10   17.8g 140348 104076 S 200.0   1.2   0:53.96 (B[m[39;49m[K
+(B[m[1m31235 root      10 -10    8268   4060   2252 R 100.0   0.0   0:00.04 (B[m[39;49m[K
+(B[m 6245 root      10 -10   10.3g   2632   2624 S   0.0   0.0   0:01.11 (B[m[39;49m[K
+(B[m 6284 root      10 -10    6572   2896   2372 S   0.0   0.0   0:05.89 (B[m[39;49m[K
+(B[m29807 root      10 -10    4168    876    796 S   0.0   0.0   0:00.04 (B[m[39;49m[K
+(B[m29811 root      10 -10    4180    952    868 S   0.0   0.0   0:00.02 (B[m[39;49m[K
+[J[H(B[mtop - 23:17:54 up 2 min,  0 users,  load average: 0.12, 0.07, 0.02(B[m[39;49m(B[m[39;49m[K
+
+
+MiB Mem :(B[m[39;49m[1m  11386.0 (B[m[39;49mtotal,(B[m[39;49m[1m    106.9 (B[m[39;49mfree,(B[m[39;49m[1m   6968.4 (B[m[39;49mused,(B[m[39;49m[1m   3918.7 (B[m[39;49mbuff/(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   8192.0 (B[m[39;49mtotal,(B[m[39;49m[1m   4321.6 (B[m[39;49mfree,(B[m[39;49m[1m   3870.4 (B[m[39;49mused.(B[m[39;49m[1m   4417.5 (B[m[39;49mavail(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 6182 root      10 -10   17.8g 139852 103580 S 800.0   1.2   0:54.02 (B[m[39;49m[K
+(B[m 6280 root      10 -10   10.3g   3544   2932 S 100.0   0.0   0:15.83 (B[m[39;49m[K
+(B[m[1m31235 root      10 -10    8268   4124   2316 R 100.0   0.0   0:00.07 (B[m[39;49m[K
+
+
+
+
+[J[H(B[mtop - 23:17:57 up 2 min,  0 users,  load average: 0.12, 0.07, 0.02(B[m[39;49m(B[m[39;49m[K
+
+
+MiB Mem :(B[m[39;49m[1m  11386.0 (B[m[39;49mtotal,(B[m[39;49m[1m    145.0 (B[m[39;49mfree,(B[m[39;49m[1m   6941.8 (B[m[39;49mused,(B[m[39;49m[1m   3907.8 (B[m[39;49mbuff/(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   8192.0 (B[m[39;49mtotal,(B[m[39;49m[1m   4282.0 (B[m[39;49mfree,(B[m[39;49m[1m   3910.0 (B[m[39;49mused.(B[m[39;49m[1m   4444.1 (B[m[39;49mavail(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 6182 root      -2 -10   17.8g 140348 104056 S 800.0   1.2   0:54.09 (B[m[39;49m[K
+(B[m 6280 root      10 -10   10.3g   3544   2932 S 100.0   0.0   0:15.88 (B[m[39;49m[K
+(B[m[1m31235 root      10 -10    8268   4124   2316 R 100.0   0.0   0:00.09 (B[m[39;49m[K
+
+
+
+
+[J[?1l>[38;1H
+[?12l[?25h[K\[\e[1;36m\]\u@\h:\w# \[\e[0m\]ps  sudo dnf in      apt install htop
+No superuser binary detected. 
+Are you rooted? 
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]no
+sh: 8: no: not found
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]jobs
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]kill -l
+0
+HUP
+INT
+QUIT
+ILL
+TRAP
+ABRT
+BUS
+FPE
+KILL
+USR1
+SEGV
+USR2
+PIPE
+ALRM
+TERM
+16
+CHLD
+CONT
+STOP
+TSTP
+TTIN
+TTOU
+URG
+XCPU
+XFSZ
+VTALRM
+PROF
+WINCH
+IO
+PWR
+SYS
+32
+33
+RTMIN
+RTMIN+1
+RTMIN+2
+RTMIN+3
+RTMIN+4
+RTMIN+5
+RTMIN+6
+RTMIN+7
+RTMIN+8
+RTMIN+9
+RTMIN+10
+RTMIN+11
+RTMIN+12
+RTMIN+13
+RTMIN+14
+RTMIN+15
+RTMAX-14
+RTMAX-13
+RTMAX-12
+RTMAX-11
+RTMAX-10
+RTMAX-9
+RTMAX-8
+RTMAX-7
+RTMAX-6
+RTMAX-5
+RTMAX-4
+RTMAX-3
+RTMAX-2
+RTMAX-1
+RTMAX
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]^C
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]exit
+
+Script done on 2026-06-28 23:22:05+05:00 [COMMAND_EXIT_CODE="130"]
