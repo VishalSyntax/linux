@@ -1,0 +1,8 @@
+Script started on 2026-06-29 23:28:51+05:00 [TERM="xterm-256color" TTY="/proc/6280/fd/0" COLUMNS="70" LINES="37"]
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]uname -i
+unknown
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]extit
+sh: 2: extit: not found
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]exit
+
+Script done on 2026-06-29 23:29:12+05:00 [COMMAND_EXIT_CODE="127"]
