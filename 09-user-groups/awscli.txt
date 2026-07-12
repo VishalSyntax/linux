@@ -1,0 +1,302 @@
+Script started on 2026-07-12 20:30:52+05:00 [TERM="xterm-256color" TTY="/proc/16959/fd/0" COLUMNS="85" LINES="42"]
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]aws iam list-users
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "akash",
+            "UserId": "AIDAQJDF2DCZYASJQFT7A",
+            "Arn": "arn:aws:iam::019540875443:user/akash",
+            "CreateDate": "2026-06-14T08:03:35Z",
+            "PasswordLastUsed": "2026-06-14T08:12:18Z"
+        },
+        {
+            "Path": "/",
+            "UserName": "BedrockAPIKey-r0sr",
+            "UserId": "AIDAQJDF2DCZ5NOHNR7QW",
+            "Arn": "arn:aws:iam::019540875443:user/BedrockAPIKey-r0sr",
+            "CreateDate": "2026-05-25T17:52:28Z"
+        },
+        {
+            "Path": "/",
+            "UserName": "thor",
+            "UserId": "AIDAQJDF2DCZWNNSXWKPS",
+            "Arn": "arn:aws:iam::019540875443:user/thor",
+            "CreateDate": "2026-07-12T15:25:36Z"
+        },
+        {
+            "Path": "/",
+            "UserName": "Vish007x",
+            "UserId": "AIDAQJDF2DCZTSAYXFLOI",
+            "Arn": "arn:aws:iam::019540875443:user/Vish007x",
+            "CreateDate": "2026-06-11T11:40:20Z",
+            "PasswordLastUsed": "2026-06-14T07:04:25Z"
+        },
+        {
+            "Path": "/",
+            "UserName": "VisitorEmp",
+            "UserId": "AIDAQJDF2DCZ6VQTLEATF",
+            "Arn": "arn:aws:iam::019540875443:user/VisitorEmp",
+            "CreateDate": "2026-06-14T09:37:06Z",
+            "PasswordLastUsed": "2026-06-14T10:59:46Z"
+        }
+    ]
+}
+\[\e[1;36m\]\u@\h:\w# \[\e[0m\]aws ia      ^[[A^[[A        aws iam         PS1='\u@\h:\w\$ '
+\u@\h:\w$ 
+\u@\h:\w$ ls
+README.md  awscli.txt  groupcmd.txt  logs  notes  questions  screenshots
+\u@\h:\w$ e exit
+
+Script done on 2026-07-12 20:44:14+05:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-07-12 20:44:32+05:00 [COMMAND="bash" TERM="xterm-256color" TTY="/proc/16959/fd/0" COLUMNS="85" LINES="42"]
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0masw   exit[1Pgit status[2Pcd linux        aws iam list-users
+[?2004l{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "akash",
+            "UserId": "AIDAQJDF2DCZYASJQFT7A",
+            "Arn": "arn:aws:iam::019540875443:user/akash",
+            "CreateDate": "2026-06-14T08:03:35Z",
+            "PasswordLastUsed": "2026-06-14T08:12:18Z"
+        },
+        {
+            "Path": "/",
+            "UserName": "BedrockAPIKey-r0sr",
+            "UserId": "AIDAQJDF2DCZ5NOHNR7QW",
+            "Arn": "arn:aws:iam::019540875443:user/BedrockAPIKey-r0sr",
+            "CreateDate": "2026-05-25T17:52:28Z"
+        },
+        {
+            "Path": "/",
+            "UserName": "thor",
+            "UserId": "AIDAQJDF2DCZWNNSXWKPS",
+            "Arn": "arn:aws:iam::019540875443:user/thor",
+            "CreateDate": "2026-07-12T15:25:36Z"
+        },
+        {
+            "Path": "/",
+            "UserName": "Vish007x",
+            "UserId": "AIDAQJDF2DCZTSAYXFLOI",
+            "Arn": "arn:aws:iam::019540875443:user/Vish007x",
+            "CreateDate": "2026-06-11T11:40:20Z",
+            "PasswordLastUsed": "2026-06-14T07:04:25Z"
+        },
+        {
+            "Path": "/",
+            "UserName": "VisitorEmp",
+            "UserId": "AIDAQJDF2DCZ6VQTLEATF",
+            "Arn": "arn:aws:iam::019540875443:user/VisitorEmp",
+            "CreateDate": "2026-06-14T09:37:06Z",
+            "PasswordLastUsed": "2026-06-14T10:59:46Z"
+        }
+    ]
+}
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws     aws iam list-users          creq te  ate-user --user-name Cw apt[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-user --user-name Capt[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-user --user-name Captain [A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-user --user-name Captai[Kn
+[?2004l{
+    "User": {
+        "Path": "/",
+        "UserName": "Captain",
+        "UserId": "AIDAQJDF2DCZWJXHHK2KE",
+        "Arn": "arn:aws:iam::019540875443:user/Captain",
+        "CreateDate": "2026-07-12T15:46:39Z"
+    }
+}
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws   aws iam create-user --user-name Captain [A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-user --user-name Captai[K
+[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-user --user-name Captai                       group --group-name Marve l
+[?2004l{
+    "Group": {
+        "Path": "/",
+        "GroupName": "Marvel",
+        "GroupId": "AGPAQJDF2DCZUHI3MW6G3",
+        "Arn": "arn:aws:iam::019540875443:group/Marvel",
+        "CreateDate": "2026-07-12T15:47:40Z"
+    }
+}
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam create-group --group-name Marvell[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-user --user-name Captain [K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam list-users[K
+[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam list-users     groups
+[?2004l{
+    "Groups": [
+        {
+            "Path": "/",
+            "GroupName": "Marvel",
+            "GroupId": "AGPAQJDF2DCZUHI3MW6G3",
+            "Arn": "arn:aws:iam::019540875443:group/Marvel",
+            "CreateDate": "2026-07-12T15:47:40Z"
+        }
+    ]
+}
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[K[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam list-groupscreate-group --group-name Marvell[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-group --group-name Marv[K
+[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-group --group-name Marv    [K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-group --group-name [K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-group --group-name DCU -Un ivers
+[?2004l{
+    "Group": {
+        "Path": "/",
+        "GroupName": "DC-Univers",
+        "GroupId": "AGPAQJDF2DCZ5VK7SSZH3",
+        "Arn": "arn:aws:iam::019540875443:group/DC-Univers",
+        "CreateDate": "2026-07-12T16:07:19Z"
+    }
+}
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam create-group --group-name DC-Uniivers[K[K[K[K[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-group --group-name DC-U[K
+[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-group --group-name DC-U                       login-profile \ --user-n ame thor \ --password 'q[KQwerty@123' [K[K' \ --password-reset-required
+[?2004lusage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: thor,  --password, Qwerty@123,  --password-reset-required,  --user-name
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[K[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-login-profile \ --user-naame thor \ --password 'Qwerty@123' \ --password-reset-required
+[?2004lusage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: thor,  --password, Qwerty@123,  --password-reset-required,  --user-name
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[K[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[7maws iam create-login-profile \[27m
+[7m--user-name thor \[27m
+[7m--password 'Qwerty@123' \[27m
+[7m--password-reset-required[27m
+[A[A[A[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-login-profile \
+--user-name thor \
+--password 'Qwerty@123' \
+--password-reset-required
+[A
+[?2004l{
+    "LoginProfile": {
+        "UserName": "thor",
+        "CreateDate": "2026-07-12T16:28:35Z",
+        "PasswordResetRequired": true
+    }
+}
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam create-login-profile --user-namee thor --password 'Qwerty@123' --password-reset-required[1P[1P[1P[1P[1@C[1@a[1@p[1@t[1@a[1@i[1@n
+[?2004l{
+    "LoginProfile": {
+        "UserName": "Captain",
+        "CreateDate": "2026-07-12T16:31:22Z",
+        "PasswordResetRequired": true
+    }
+}
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam create-login-profile --user-namee Captain --password 'Qwerty@123' --password-reset-required3[1P[1@1
+[?2004l
+An error occurred (EntityAlreadyExists) when calling the CreateLoginProfile operation: Login Profile for user Captain already exists.
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[K[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[K[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-user --user-name v Tony \- -password 'Qwerty@123'
+[?2004lusage: Note: AWS CLI version 2, the latest major version of the AWS CLI, is now stable and recommended for general use. For more information, see the AWS CLI version 2 installation instructions at: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+Unknown options: --password, Qwerty@123
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam create-user --user-name Tony \---password 'Qwerty@123'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-user --user-name Tony \[K
+[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-user --user-name Tony \  
+[?2004l{
+    "User": {
+        "Path": "/",
+        "UserName": "Tony",
+        "UserId": "AIDAQJDF2DCZYRUDY6UMZ",
+        "Arn": "arn:aws:iam::019540875443:user/Tony",
+        "CreateDate": "2026-07-12T17:08:50Z"
+    }
+}
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam create-login-profile \--user-na me Tony \--password 'Qwerty@123'
+[?2004l{
+    "LoginProfile": {
+        "UserName": "Tony",
+        "CreateDate": "2026-07-12T17:10:34Z",
+        "PasswordResetRequired": false
+    }
+}
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam create-login-profile \--user-namme Tony \--password 'Qwerty@123'[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-[3Puser --user-name Tony
+[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-user --user-name Tony \---password 'Qwerty@123'[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-login-profile --user-name Captain --password 'Qwerty@121' --password-reset-required[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kthor[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-login-profile --user-nae-login-profile --user-name [1P[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam creat-login-profile --user-name t[1P[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam crea-login-profile --user-name th[1P[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam cre-login-profile --user-name tho[1Pr[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam cr-login-profile --user-name thor[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam c-login-profile --user-name thor [K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam u-login-profile --user-name thorr[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam up-login-profile --user-name thor[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam upd-login-profile --user-name thor[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam upda-login-profile --user-name t[1@h[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam updat-login-profile --user-name [1@t[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam update-login-profile --user-name[1@ [A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam update-login-profile --user-na
+e thor/[K \ [K--password 'Qwerty@123'
+[?2004l[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam update-login-profile --user-namee thor \--password 'Qwerty@123'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam update-login-profile --user-na-login-profile --user-name [1P[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam updat-login-profile --user-name t[1P[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam upda-login-profile --user-name th[1P[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam upd-login-profile --user-name tho[1Pr[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam up-login-profile --user-name thor[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam u-login-profile --user-name thor [K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam d-login-profile --user-name thorr[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam de-login-profile --user-name thor[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam del-login-profile --user-name thor[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam dele-login-profile --user-name t[1@h[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam delet-login-profile --user-name [1@t[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam delete-login-profile --user-name[1@ [A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam delete
+
+[?2004l[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam delete-login-profile --user-namee thor[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam upda
+e thor \--password 'Qwerty@123'[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam update-login-profile --user-na-login-profile --user-name [1P[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam updat-login-profile --user-name t[1P[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam upda-login-profile --user-name th[1P[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam upd-login-profile --user-name tho[1P[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam up-login-profile --user-name thor[1P[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam u-login-profile --user-name thor [1P[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam c-login-profile --user-name thor[1@ [A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam cr-login-profile --user-name tho[1@r[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam cre-login-profile --user-name th[1@o[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam crea-login-profile --user-name t[1@h[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam creat-login-profile --user-name [1@t[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create-login-profile --user-name[1@ [A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam create
+
+[?2004l{
+    "LoginProfile": {
+        "UserName": "thor",
+        "CreateDate": "2026-07-12T17:17:58Z",
+        "PasswordResetRequired": false
+    }
+}
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam add-user-to-group --user-name \--user-name  [A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam add-user-to-group \--user-name
+[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam add-user-to-group \--user-name[1P 
+[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam add-user-to-group \--user-name  [A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam add-user-to-group \--user-name
+ t h o r   \ - - g t [1P r o u p - n a m e   M a r v e l 
+[?2004l[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam get-group --group-name Marvel
+[?2004l{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "thor",
+            "UserId": "AIDAQJDF2DCZWNNSXWKPS",
+            "Arn": "arn:aws:iam::019540875443:user/thor",
+            "CreateDate": "2026-07-12T15:25:36Z",
+            "PasswordLastUsed": "2026-07-12T17:15:50Z"
+        }
+    ],
+    "Group": {
+        "Path": "/",
+        "GroupName": "Marvel",
+        "GroupId": "AGPAQJDF2DCZUHI3MW6G3",
+        "Arn": "arn:aws:iam::019540875443:group/Marvel",
+        "CreateDate": "2026-07-12T15:47:40Z"
+    }
+}
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam get-group --group-name Marveladd-user-to-group \--user-name tthor \--group-name Marvel [1P[1P[1P[1P[1@T[1@o[1@n[1@y
+[?2004l[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam add-user-to-group \--user-name TTony \--group-name Marvel [1P[1P[1P[1P[1@C[1@a[1@p[1@t[1@a[1@i[1@n
+[?2004l[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kaws iam add-user-to-group \--user-name CCaptain \--group-name Marvel [3PTony \--group-name Marvel [A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam [2Pget-group --group-name Marvel
+[K[A[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0maws iam get-group --group-name Marvel
+[?2004l{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "Captain",
+            "UserId": "AIDAQJDF2DCZWJXHHK2KE",
+            "Arn": "arn:aws:iam::019540875443:user/Captain",
+            "CreateDate": "2026-07-12T15:46:39Z",
+            "PasswordLastUsed": "2026-07-12T17:01:25Z"
+        },
+        {
+            "Path": "/",
+            "UserName": "thor",
+            "UserId": "AIDAQJDF2DCZWNNSXWKPS",
+            "Arn": "arn:aws:iam::019540875443:user/thor",
+            "CreateDate": "2026-07-12T15:25:36Z",
+            "PasswordLastUsed": "2026-07-12T17:15:50Z"
+        },
+        {
+            "Path": "/",
+            "UserName": "Tony",
+            "UserId": "AIDAQJDF2DCZYRUDY6UMZ",
+            "Arn": "arn:aws:iam::019540875443:user/Tony",
+            "CreateDate": "2026-07-12T17:08:50Z",
+            "PasswordLastUsed": "2026-07-12T17:11:26Z"
+        }
+    ],
+    "Group": {
+        "Path": "/",
+        "GroupName": "Marvel",
+        "GroupId": "AGPAQJDF2DCZUHI3MW6G3",
+        "Arn": "arn:aws:iam::019540875443:group/Marvel",
+        "CreateDate": "2026-07-12T15:47:40Z"
+    }
+}
+[?2004h[1;36mroot@localhost:~/gitHub/linux/09-user-groups# [0m[Kexit
+[?2004lexit
+
+Script done on 2026-07-12 22:39:53+05:00 [COMMAND_EXIT_CODE="0"]
