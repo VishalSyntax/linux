@@ -59,6 +59,15 @@ git push
 git pull
 git clone
 
+Switching an existing local repository from HTTPS to SSH:
+1. Change the remote URL to SSH:
+git remote set-url origin git@github.com:VishalSyntax/linux.git
+
+2. verify: git remote -v
+
+3. Test the ssh connection:
+ssh -T git@github.com
+
 
 🔹 Best way to learn (do this)
 
