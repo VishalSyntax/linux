@@ -12,4 +12,46 @@ Are you rooted?
 [33m                        0% [Working][0m[33m0% [Waiting for headers]                                                      22.8 kB/s 27s[0m                                                                                           Get:5 http://security.ubuntu.com/ubuntu resolute-security/universe arm64 Packages [180 kB]
 [33m0% [5 Packages 109 kB/180 kB 61%]                                             22.8 kB/s 22s[0m[33m0% [Working]                                                                  22.8 kB/s 19s[0m[33m0% [Working]                                                                  22.8 kB/s 19s[0m[33m0% [5 Packages store 0 B]                                                     22.8 kB/s 19s[0m[33m0% [Waiting for headers]                                                      22.8 kB/s 19s[0m                                                                                           Get:6 http://security.ubuntu.com/ubuntu resolute-security/main arm64 Packages [440 kB]
 [33m0% [6 Packages 0 B/440 kB 0%]                                                 22.8 kB/s 19s[0m[33m78% [6 Packages 240 kB/440 kB 55%]                                             22.8 kB/s 8s[0m[33m99% [Working]                                                                  22.8 kB/s 0s[0m[33m99% [6 Packages store 0 B]                                                     22.8 kB/s 0s[0m[33m100% [Working]                                                                 22.8 kB/s 0s[0m                                                                                           Fetched 757 kB in 7s (116 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 70%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 7%Reading package lists... 7%Reading package lists... 70%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 87%Reading package lists... 87%Reading package lists... 90%Reading package lists... 90%Reading package lists... 91%Reading package lists... 91%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%                             Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                [1m81 packages can be upgraded. Run 'apt list --upgradable' to see them.
+[0m[?2004h[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0m[K[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0m[K[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0mlsblk
+[?2004llsblk: failed to access sysfs directory: /sys/dev/block: Permission denied
+[?2004h[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0m[K[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0m[K[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0mss [K[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0mss [K[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0mss  -tulpn
+[?2004lbash: ss-tulpn: command not found
+[?2004h[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0m[K[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0m[K[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0mnetstat
+[?2004lActive Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+[?2004h[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0mifconfig
+[?2004lWarning: cannot open /proc/net/dev (Permission denied). Limited output.
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 1000  (UNSPEC)
+
+v4-ccmni1: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1372
+        inet 192.0.0.4  netmask 255.255.255.255  destination 192.0.0.4
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 500  (UNSPEC)
+
+[?2004h[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0m[K[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0m[K[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0misof
+[?2004lbash: isof: command not found
+[?2004h[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0mtree
+[?2004l[01;34m.[0m
+|-- log.txt
+`-- networking.txt
+
+1 directory, 2 files
+[?2004h[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0m[K[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0m[K[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0mgit add .
+[?2004l[?2004h[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0mgit commite  -m rootcm
+[?2004l[33mhint: The '.git/hooks/post-commit' hook was ignored because it's not set as executable.[m
+[33mhint: You can disable this warning with `git config set advice.ignoredHook false`.[m
+fatal: unable to resolve HEAD after creating commit
+[?2004h[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0m[Kgit commit -m rootcm"[1@"
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[?2004h[1;36mroot@localhost:~/gitHub/linux/08-root/logs# [0m[Kgit push
+[?2004lTo github.com:VishalSyntax/linux.git
+ [31m! [rejected]       [m main -> main (fetch first)
+[31merror: failed to push some refs to 'g
